@@ -18,6 +18,23 @@
 		1B577D9422E7BBFC005F7188 /* libLoginStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B577D6322E7B572005F7188 /* libLoginStaticLibrary.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1B577D9A22E7BD51005F7188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B577D5B22E7B572005F7188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B577D6222E7B572005F7188;
+			remoteInfo = LoginStaticLibrary;
+		};
+		1B577D9C22E7BD51005F7188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B577D5B22E7B572005F7188 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B577D7022E7B665005F7188;
+			remoteInfo = LoginLibraryResourceBundle;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		1B577D6122E7B572005F7188 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -179,6 +196,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				1B577D9B22E7BD51005F7188 /* PBXTargetDependency */,
+				1B577D9D22E7BD51005F7188 /* PBXTargetDependency */,
 			);
 			name = ConsumerApp;
 			productName = ConsumerApp;
@@ -274,6 +293,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B577D9B22E7BD51005F7188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B577D6222E7B572005F7188 /* LoginStaticLibrary */;
+			targetProxy = 1B577D9A22E7BD51005F7188 /* PBXContainerItemProxy */;
+		};
+		1B577D9D22E7BD51005F7188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B577D7022E7B665005F7188 /* LoginLibraryResourceBundle */;
+			targetProxy = 1B577D9C22E7BD51005F7188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1B577D8722E7BB1A005F7188 /* Main.storyboard */ = {
