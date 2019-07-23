@@ -45,6 +45,9 @@
                     <rect key="frame" x="147" y="365" width="38" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" title="Login"/>
+                    <connections>
+                        <action selector="onLoginTapped:" destination="-1" eventType="touchUpInside" id="WqO-SP-H24"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvU-Ty-jb1">
                     <rect key="frame" x="76" y="298" width="74" height="21"/>
