@@ -15,6 +15,7 @@
 		1B577D8922E7BB1A005F7188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B577D8722E7BB1A005F7188 /* Main.storyboard */; };
 		1B577D8B22E7BB1B005F7188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B577D8A22E7BB1B005F7188 /* Assets.xcassets */; };
 		1B577D8E22E7BB1B005F7188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B577D8C22E7BB1B005F7188 /* LaunchScreen.storyboard */; };
+		1B577D9422E7BBFC005F7188 /* libLoginStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B577D6322E7B572005F7188 /* libLoginStaticLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B577D9422E7BBFC005F7188 /* libLoginStaticLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +79,7 @@
 				1B577D7222E7B665005F7188 /* LoginLibraryResourceBundle */,
 				1B577D8222E7BB1A005F7188 /* ConsumerApp */,
 				1B577D6422E7B572005F7188 /* Products */,
+				1B577D9322E7BBFC005F7188 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +122,13 @@
 				1B577D8F22E7BB1B005F7188 /* Info.plist */,
 			);
 			path = ConsumerApp;
+			sourceTree = "<group>";
+		};
+		1B577D9322E7BBFC005F7188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
