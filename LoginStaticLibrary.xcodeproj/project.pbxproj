@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B577D6722E7B572005F7188 /* LoginStaticLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B577D6622E7B572005F7188 /* LoginStaticLibrary.swift */; };
 		1B577D7822E7B792005F7188 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B577D7722E7B792005F7188 /* LoginScreen.xib */; };
+		1B577D7C22E7B8E6005F7188 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B577D7B22E7B8E6005F7188 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		1B577D7122E7B665005F7188 /* LoginLibraryResourceBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginLibraryResourceBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B577D7322E7B665005F7188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B577D7722E7B792005F7188 /* LoginScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+		1B577D7B22E7B8E6005F7188 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				1B577D6622E7B572005F7188 /* LoginStaticLibrary.swift */,
+				1B577D7B22E7B8E6005F7188 /* LoginViewController.swift */,
 			);
 			path = LoginStaticLibrary;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B577D7C22E7B8E6005F7188 /* LoginViewController.swift in Sources */,
 				1B577D6722E7B572005F7188 /* LoginStaticLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
