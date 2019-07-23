@@ -25,10 +25,19 @@
 /* Begin PBXFileReference section */
 		1B577D6322E7B572005F7188 /* libLoginStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLoginStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B577D6622E7B572005F7188 /* LoginStaticLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStaticLibrary.swift; sourceTree = "<group>"; };
+		1B577D7122E7B665005F7188 /* LoginLibraryResourceBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginLibraryResourceBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B577D7322E7B665005F7188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1B577D6022E7B572005F7188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B577D6E22E7B665005F7188 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				1B577D6522E7B572005F7188 /* LoginStaticLibrary */,
+				1B577D7222E7B665005F7188 /* LoginLibraryResourceBundle */,
 				1B577D6422E7B572005F7188 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1B577D6322E7B572005F7188 /* libLoginStaticLibrary.a */,
+				1B577D7122E7B665005F7188 /* LoginLibraryResourceBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +71,14 @@
 				1B577D6622E7B572005F7188 /* LoginStaticLibrary.swift */,
 			);
 			path = LoginStaticLibrary;
+			sourceTree = "<group>";
+		};
+		1B577D7222E7B665005F7188 /* LoginLibraryResourceBundle */ = {
+			isa = PBXGroup;
+			children = (
+				1B577D7322E7B665005F7188 /* Info.plist */,
+			);
+			path = LoginLibraryResourceBundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +101,23 @@
 			productReference = 1B577D6322E7B572005F7188 /* libLoginStaticLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		1B577D7022E7B665005F7188 /* LoginLibraryResourceBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B577D7422E7B665005F7188 /* Build configuration list for PBXNativeTarget "LoginLibraryResourceBundle" */;
+			buildPhases = (
+				1B577D6D22E7B665005F7188 /* Sources */,
+				1B577D6E22E7B665005F7188 /* Frameworks */,
+				1B577D6F22E7B665005F7188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginLibraryResourceBundle;
+			productName = LoginLibraryResourceBundle;
+			productReference = 1B577D7122E7B665005F7188 /* LoginLibraryResourceBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +129,9 @@
 				ORGANIZATIONNAME = "Anurag Ajwani";
 				TargetAttributes = {
 					1B577D6222E7B572005F7188 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1B577D7022E7B665005F7188 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -110,9 +149,20 @@
 			projectRoot = "";
 			targets = (
 				1B577D6222E7B572005F7188 /* LoginStaticLibrary */,
+				1B577D7022E7B665005F7188 /* LoginLibraryResourceBundle */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B577D6F22E7B665005F7188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B577D5F22E7B572005F7188 /* Sources */ = {
@@ -120,6 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B577D6722E7B572005F7188 /* LoginStaticLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B577D6D22E7B665005F7188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +325,42 @@
 			};
 			name = Release;
 		};
+		1B577D7522E7B665005F7188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 44H9U6N2S5;
+				INFOPLIST_FILE = LoginLibraryResourceBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuragajwani.LoginLibraryResourceBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1B577D7622E7B665005F7188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 44H9U6N2S5;
+				INFOPLIST_FILE = LoginLibraryResourceBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anuragajwani.LoginLibraryResourceBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -285,6 +378,15 @@
 			buildConfigurations = (
 				1B577D6B22E7B572005F7188 /* Debug */,
 				1B577D6C22E7B572005F7188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B577D7422E7B665005F7188 /* Build configuration list for PBXNativeTarget "LoginLibraryResourceBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B577D7522E7B665005F7188 /* Debug */,
+				1B577D7622E7B665005F7188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
