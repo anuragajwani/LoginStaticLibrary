@@ -8,6 +8,14 @@
 
 import UIKit
 
+public func getLoginScreen(onLogin: @escaping ()->()) -> UIViewController {
+    let bundlePath = Bundle.main.path(forResource: "LoginLibraryResourceBundle", ofType: "bundle")!
+    let bundle = Bundle(path: bundlePath)!
+    let loginViewController = LoginViewController(nibName: "LoginScreen", bundle: bundle)
+    loginViewController.onLogin = onLogin
+    return loginViewController
+}
+
 class LoginViewController: UIViewController {
     
     var onLogin: (() -> ())?
