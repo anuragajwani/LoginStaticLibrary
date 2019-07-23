@@ -12,6 +12,10 @@ import LoginStaticLibrary
 class ViewController: UIViewController {
 
     @IBAction func onSignInTapped(_ sender: Any) {
+        let loginViewController = getLoginScreen(onLogin: {
+            self.dismiss(animated: true, completion: nil)
+        })
+        self.present(loginViewController, animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
