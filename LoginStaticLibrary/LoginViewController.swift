@@ -13,6 +13,7 @@ class LoginViewController: UIViewController {
     var onLogin: (() -> ())?
 
     @IBAction func onLoginTapped(_ sender: Any) {
+        self.onLogin?()
     }
     
     override func viewDidLoad() {
