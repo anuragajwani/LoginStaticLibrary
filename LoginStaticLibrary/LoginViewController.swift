@@ -9,9 +9,12 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    var onLogin: (() -> ())?
 
     @IBAction func onLoginTapped(_ sender: Any) {
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
