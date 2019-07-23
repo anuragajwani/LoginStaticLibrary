@@ -16,6 +16,7 @@
 		1B577D8B22E7BB1B005F7188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B577D8A22E7BB1B005F7188 /* Assets.xcassets */; };
 		1B577D8E22E7BB1B005F7188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B577D8C22E7BB1B005F7188 /* LaunchScreen.storyboard */; };
 		1B577D9422E7BBFC005F7188 /* libLoginStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B577D6322E7B572005F7188 /* libLoginStaticLibrary.a */; };
+		1B577D9E22E7BD96005F7188 /* LoginLibraryResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B577D7122E7B665005F7188 /* LoginLibraryResourceBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -258,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B577D9E22E7BD96005F7188 /* LoginLibraryResourceBundle.bundle in Resources */,
 				1B577D8E22E7BB1B005F7188 /* LaunchScreen.storyboard in Resources */,
 				1B577D8B22E7BB1B005F7188 /* Assets.xcassets in Resources */,
 				1B577D8922E7BB1A005F7188 /* Main.storyboard in Resources */,
